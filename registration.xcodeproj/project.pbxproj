@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1711BC1EB80C5500F30720 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1711BB1EB80C5500F30720 /* TasksViewController.swift */; };
+		3F1711BE1EB80C7F00F30720 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1711BD1EB80C7F00F30720 /* Task.swift */; };
+		3F1711C01EB80CBE00F30720 /* AvailableTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1711BF1EB80CBE00F30720 /* AvailableTasks.swift */; };
+		3F1711C21EB80CE300F30720 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1711C11EB80CE300F30720 /* TaskCell.swift */; };
+		3F1711C81EB83CCF00F30720 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1711C71EB83CCF00F30720 /* AddTaskViewController.swift */; };
 		3F7DF6531EAE9D6C006CBE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DF6521EAE9D6C006CBE9D /* AppDelegate.swift */; };
 		3F7DF6551EAE9D6C006CBE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DF6541EAE9D6C006CBE9D /* ViewController.swift */; };
 		3F7DF6581EAE9D6C006CBE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DF6561EAE9D6C006CBE9D /* Main.storyboard */; };
@@ -14,6 +19,7 @@
 		3F7DF65D1EAE9D6C006CBE9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DF65B1EAE9D6C006CBE9D /* LaunchScreen.storyboard */; };
 		3F7DF6681EAE9D6C006CBE9D /* registrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DF6671EAE9D6C006CBE9D /* registrationTests.swift */; };
 		3F7DF6731EAE9D6C006CBE9D /* registrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DF6721EAE9D6C006CBE9D /* registrationUITests.swift */; };
+		3F7DF6851EAEAAA3006CBE9D /* signUpPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DF6841EAEAAA3006CBE9D /* signUpPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F1711BB1EB80C5500F30720 /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		3F1711BD1EB80C7F00F30720 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		3F1711BF1EB80CBE00F30720 /* AvailableTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailableTasks.swift; sourceTree = "<group>"; };
+		3F1711C11EB80CE300F30720 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		3F1711C71EB83CCF00F30720 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 		3F7DF64F1EAE9D6C006CBE9D /* registration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = registration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7DF6521EAE9D6C006CBE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F7DF6541EAE9D6C006CBE9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		3F7DF66E1EAE9D6C006CBE9D /* registrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = registrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7DF6721EAE9D6C006CBE9D /* registrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registrationUITests.swift; sourceTree = "<group>"; };
 		3F7DF6741EAE9D6C006CBE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7DF6841EAEAAA3006CBE9D /* signUpPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,18 @@
 		3F7DF6511EAE9D6C006CBE9D /* registration */ = {
 			isa = PBXGroup;
 			children = (
+				3F1711C71EB83CCF00F30720 /* AddTaskViewController.swift */,
 				3F7DF6521EAE9D6C006CBE9D /* AppDelegate.swift */,
 				3F7DF6541EAE9D6C006CBE9D /* ViewController.swift */,
 				3F7DF6561EAE9D6C006CBE9D /* Main.storyboard */,
 				3F7DF6591EAE9D6C006CBE9D /* Assets.xcassets */,
 				3F7DF65B1EAE9D6C006CBE9D /* LaunchScreen.storyboard */,
 				3F7DF65E1EAE9D6C006CBE9D /* Info.plist */,
+				3F7DF6841EAEAAA3006CBE9D /* signUpPageViewController.swift */,
+				3F1711BB1EB80C5500F30720 /* TasksViewController.swift */,
+				3F1711BD1EB80C7F00F30720 /* Task.swift */,
+				3F1711BF1EB80CBE00F30720 /* AvailableTasks.swift */,
+				3F1711C11EB80CE300F30720 /* TaskCell.swift */,
 			);
 			path = registration;
 			sourceTree = "<group>";
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1711C01EB80CBE00F30720 /* AvailableTasks.swift in Sources */,
+				3F1711C81EB83CCF00F30720 /* AddTaskViewController.swift in Sources */,
+				3F1711C21EB80CE300F30720 /* TaskCell.swift in Sources */,
 				3F7DF6551EAE9D6C006CBE9D /* ViewController.swift in Sources */,
+				3F1711BC1EB80C5500F30720 /* TasksViewController.swift in Sources */,
+				3F1711BE1EB80C7F00F30720 /* Task.swift in Sources */,
 				3F7DF6531EAE9D6C006CBE9D /* AppDelegate.swift in Sources */,
+				3F7DF6851EAEAAA3006CBE9D /* signUpPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +529,7 @@
 				3F7DF6791EAE9D6C006CBE9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F7DF67A1EAE9D6C006CBE9D /* Build configuration list for PBXNativeTarget "registrationTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +538,7 @@
 				3F7DF67C1EAE9D6C006CBE9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F7DF67D1EAE9D6C006CBE9D /* Build configuration list for PBXNativeTarget "registrationUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +547,7 @@
 				3F7DF67F1EAE9D6C006CBE9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
